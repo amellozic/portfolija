@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Animation On Scroll Library -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link href="style/top.css" type="text/css" rel="stylesheet">
+    <link href="style/effects.css" type="text/css" rel="stylesheet">
+    <link href="style/skills.css" type="text/css" rel="stylesheet">
+    <link href="style/about.css" type="text/css" rel="stylesheet">
+    <link href="style/footer.css" type="text/css" rel="stylesheet">
+    <link href="style/projects.css" type="text/css" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- You can put any emoji here to use as favicon -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👩🏻‍💻</text></svg>">
+    
+
+    <!-- Put here your site title -->
+    <title>Moja Portfolija</title>
+
+</head>
+
+<!-- Follow the HTML instructions to create your portfolio website -->
+<body>
+    
+    <div id="top">
+
+
+        <div class="header">
+            <h1> 
+                Živjo, moje ime je <span class="gradient">Amel Lozić</span>
+            </h1>
+
+            <div class="header-icons">
+                
+                <a class="icon gradient fade" aria-label="Send email" target="_blank" href="https://accounts.google.com/signin/v2/identifier?service=mail&passive=true&rm=false&continue=https%3A%2F%2Fmail.google.com%2Fmail%2F&ss=1&scc=1&ltmpl=default&ltmplcache=2&emr=1&osid=1&flowName=GlifWebSignIn&flowEntry=ServiceLogin">
+                    <i class="fa fa-envelope"></i>
+                </a>
+
+                <a class="icon gradient fade" aria-label="Github" target="_blank" href="https://github.com/amellozic">
+                    <i class="fa fa-github-alt"></i>
+                </a>
+
+            </div>
+
+            <p class="nav">
+                <a class="btn" href="#about">
+                    O meni
+                </a>
+                
+                <a class="btn" href="#skills">
+                    Znanje
+                </a>
+
+                <a class="btn" href="#projects">
+                    Projekti
+                </a>
+            </p>
+        </div>
+
+        <a class="icon bounce gradient fade" id="down" href="#about" data-scroll>
+            <i class="fa fa-chevron-down"></i>
+        </a>
+
+    </div>
+
+    <!-- About section -->
+    <span id="about">&nbsp</span>
+    <section class="section-style" data-aos="fade-up">
+        <div class="container">
+            
+            <h2 class="section-title">O meni</h2>
+            
+            <div class="description">
+                <p>Sem dijak 4.letnika Elekto Računalniške šole v Novi Gorici. Star sem 19 let in imam namen nadaljevati šolanje na Ekonomskem falkultetu v Ljubljani. V prostem času se rad ukrvarjam s športom in družim z prijatelji. </p>
+            </div>
+            <!--<a href="assets/Resume.pdf" target="_blank"><button class="project-button gradient-btn fade" ><h4>My Resume</h4></button></a>-->
+        </div>
+
+    </section>
+    <!-- End of about section -->
+
+    <!-- skills section -->
+    <section id="skills" class="skills" data-aos="zoom-in">
+        <div class="container">
+
+            <h2 class="section-title">Znanje</h2>
+
+            <div class="cards-main">
+               
+               <div class="card shadow">
+                    <div>
+                        <img class="img-card" src="assets/java.svg" alt="logo java">
+                        <p>Java</p>
+                    </div>
+               </div>
+            
+                <div class="card shadow">
+                    <div>
+                        <img class="img-card" src="assets/js.svg" alt="logo java script">
+                        <p>JavaScript</p>
+                    </div>
+                </div>
+
+                <div class="card shadow">
+                    <div>
+                        <img class="img-card" src="assets/html5.svg" alt="logo html">
+                        <p>HTML</p>
+                    </div>
+               </div>
+               
+               <div class="card shadow">
+                    <div>
+                        <img class="img-card" src="assets/css3.svg" alt="logo css">
+                        <p>CSS</p>
+                    </div>                   
+                </div>         
+
+                <div class="card shadow">
+                    <div>
+                        <img class="img-card" src="assets/sql.png" alt="logo sql">
+                        <p>SQL-database</p>
+                    </div>
+                </div>
+               
+            </div>
+               
+
+            </div>
+
+        </div>
+    </section>
+    <!-- End of skills section -->
+
+   <!-- Projects section -->
+   <section  id="projects">
+      <div class="container">
+
+         <h2 class="section-title">Projekti</h2>
+
+         <div class="projects-main">
+				
+				<!-- Project Card Start -->
+				<div class="project">
+					<div class="project-informations" data-aos="fade-right">
+						<h3>Obrazec UPN</h3>
+						<p>Pri tem projektu smo morali narediti obrazec UPN z uporabo html-ja ter css-ja.</p>
+						
+						<!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
+						<div class="wrapper">
+							<div class="link_wrapper">
+								<a href="https://github.com/amellozic/UPN.git" target="_blank">Poglej projekt</a>
+								<div class="project-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+											<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+									</svg>
+								</div>
+							</div>      
+						</div>
+					</div>
+					<div class="project-img" data-aos="fade-left">
+						<img class="shadow" src="assets/UPN.png" alt="code">
+					</div>
+				</div>
+				<!-- Project Card End -->
+
+				<!-- Project Card Start -->
+            <div class="project">
+					<div class="project-informations" data-aos="fade-down">
+           			<h3>Nike logo</h3>
+                  <p>Pri tej nalogi smo morali simulirati znak podjetja Nike s pomočjo funkcije bezierCurveTo() ter z svg-jem in kombinacijo HTML-ja ter css-ja. Pomagal sem si tudi z programskim orodjem Gimp.</p>
+
+						<!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
+                  <div class="wrapper">
+							<div class="link_wrapper">
+								<a href="https://github.com/amellozic/Nike-logo.git" target="_blank">Poglej projekt</a>
+								<div class="project-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+										<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+									</svg>
+								</div>
+							</div>      
+						</div>
+               </div>
+               <div class="project-img" data-aos="fade-up">
+                  <img class="shadow" src="assets/nike.png" alt="code">
+               </div>
+                    
+				</div>
+				<!-- Project Card End -->
+				
+				<div class="project">
+					<div class="project-informations" data-aos="fade-right">
+						<h3>Labirint</h3>
+						<p>Spletna stran z labirintom je izdelana iz svg-ja, html-ja ter css-ja in z uporabo JavaScripta. Rešitev labirinta se izriše sama in po njej potuje objekt do cilja. Tema labirinta je Star Wars.</p>
+						
+						<!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
+						<div class="wrapper">
+							<div class="link_wrapper">
+								<a href="https://github.com/amellozic/Labirint.git" target="_blank">Poglej projekt</a>
+								<div class="project-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+											<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+									</svg>
+								</div>
+							</div>      
+						</div>
+					</div>
+					<div class="project-img" data-aos="fade-left">
+						<img class="shadow" src="assets/labirint.png" alt="code">
+					</div>
+				</div>
+				
+				<div class="project">
+					<div class="project-informations" data-aos="fade-down">
+           			<h3>The bricks</h3>
+                  <p>Igra The bricks je narejena v html-ju s pomočjo javaScripta ter css-ja. Cilj igre je da odbiješ žogico od spodnje ploščice v zgorjne kocke ter jih tako uničiš vse. </p>
+
+						<!--<button class="project-button gradient-btn fade" onclick="alert('Will be updated soon.');">See more</button>-->
+                  <div class="wrapper">
+							<div class="link_wrapper">
+								<a href="https://github.com/amellozic/The-bricks.git" target="_blank">Poglej projekt</a>
+								<div class="project-icon">
+									<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 268.832 268.832">
+										<path d="M265.17 125.577l-80-80c-4.88-4.88-12.796-4.88-17.677 0-4.882 4.882-4.882 12.796 0 17.678l58.66 58.66H12.5c-6.903 0-12.5 5.598-12.5 12.5 0 6.903 5.597 12.5 12.5 12.5h213.654l-58.66 58.662c-4.88 4.882-4.88 12.796 0 17.678 2.44 2.44 5.64 3.66 8.84 3.66s6.398-1.22 8.84-3.66l79.997-80c4.883-4.882 4.883-12.796 0-17.678z"/>
+									</svg>
+								</div>
+							</div>      
+						</div>
+               </div>
+               <div class="project-img" data-aos="fade-up">
+                  <img class="shadow" src="assets/the bricks.png" alt="code">
+               </div>
+                    
+				</div>
+         </div>
+
+      </div>
+
+   </section>
+    <!-- End of projects section -->
+
+    <a title="Go to top"
+        class="icon gradient fade"
+        style="visibility: hidden;"
+        id="top-button"
+        onclick="topFunction()"
+    >
+        <i class="fa fa-angle-double-up"></i>
+    </a>
+
+    <footer class="footer container">
+
+        <hr>
+
+        <b><p>© 2021</p>
+        
+         </b>
+
+    </footer>
+
+    <!-- Animation On Scroll Library -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
+    <script>
+        var topButton = document.getElementById("top-button");
+
+        document.addEventListener("scroll", scrollFunction);
+
+        function scrollFunction(){
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20){
+                topButton.style.visibility = "visible";
+            }else{
+                topButton.style.visibility = "hidden";
+            }
+        }
+
+        function topFunction(){
+            document.documentElement.scrollTop = 0;
+        }
+
+    // Animation On Scroll Library
+       AOS.init({
+			 offset: 250,
+			 duration: 1000,
+             once: true
+		 });
+
+    </script>
+    
+</body>
+
+</html>
